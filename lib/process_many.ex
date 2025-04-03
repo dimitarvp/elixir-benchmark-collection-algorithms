@@ -19,16 +19,8 @@ defmodule ProcessMany do
 
   def process_dimitarvp_parallel_chunk(collection, func)
       when is_function(func, 1) do
-    chunk_size = 500
-
     collection
-    |> Stream.chunk_every(chunk_size)
-    |> Task.async_stream(
-      fn batch ->
-        Enum.map(batch, func)
-      end,
-      timeout: :infinity
-    )
+    |> Task.async_stream(func, timeout: :infinity)
     |> Stream.run()
   end
 end
