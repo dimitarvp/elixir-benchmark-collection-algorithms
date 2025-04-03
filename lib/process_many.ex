@@ -19,13 +19,7 @@ defmodule ProcessMany do
 
   def process_dimitarvp_parallel_chunk(collection, func)
       when is_function(func, 1) do
-    # Divide the number of elements to all available schedulers (usually # of CPU threads).
-    # This gives us the size of a chunk of the collection per CPU thread.
-    chunk_size = ceil(Enum.count(collection) / System.schedulers_online())
-
-    # ...but never have chunks smaller than 500 elements; collections with elements below that
-    # number are too small to be processed in parallel.
-    chunk_size = max(500, chunk_size)
+    chunk_size = 500
 
     collection
     |> Stream.chunk_every(chunk_size)
