@@ -81,29 +81,29 @@ Run Time
 
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap; text-align: right">282.59</td>
-    <td style="white-space: nowrap; text-align: right">3.54 ms</td>
-    <td style="white-space: nowrap; text-align: right">±4.82%</td>
-    <td style="white-space: nowrap; text-align: right">3.51 ms</td>
-    <td style="white-space: nowrap; text-align: right">3.88 ms</td>
+    <td style="white-space: nowrap; text-align: right">289.81</td>
+    <td style="white-space: nowrap; text-align: right">3.45 ms</td>
+    <td style="white-space: nowrap; text-align: right">±3.78%</td>
+    <td style="white-space: nowrap; text-align: right">3.43 ms</td>
+    <td style="white-space: nowrap; text-align: right">4.00 ms</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">61.64</td>
-    <td style="white-space: nowrap; text-align: right">16.22 ms</td>
-    <td style="white-space: nowrap; text-align: right">±7.19%</td>
-    <td style="white-space: nowrap; text-align: right">16.37 ms</td>
-    <td style="white-space: nowrap; text-align: right">18.98 ms</td>
+    <td style="white-space: nowrap; text-align: right">1.61</td>
+    <td style="white-space: nowrap; text-align: right">619.25 ms</td>
+    <td style="white-space: nowrap; text-align: right">±0.38%</td>
+    <td style="white-space: nowrap; text-align: right">619.25 ms</td>
+    <td style="white-space: nowrap; text-align: right">620.90 ms</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">1.01</td>
-    <td style="white-space: nowrap; text-align: right">993.28 ms</td>
-    <td style="white-space: nowrap; text-align: right">±0.00%</td>
-    <td style="white-space: nowrap; text-align: right">993.28 ms</td>
-    <td style="white-space: nowrap; text-align: right">993.28 ms</td>
+    <td style="white-space: nowrap; text-align: right">1.07</td>
+    <td style="white-space: nowrap; text-align: right">937.29 ms</td>
+    <td style="white-space: nowrap; text-align: right">±2.40%</td>
+    <td style="white-space: nowrap; text-align: right">937.29 ms</td>
+    <td style="white-space: nowrap; text-align: right">953.22 ms</td>
   </tr>
 
 </table>
@@ -118,20 +118,20 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap;text-align: right">282.59</td>
+    <td style="white-space: nowrap;text-align: right">289.81</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">61.64</td>
-    <td style="white-space: nowrap; text-align: right">4.58x</td>
+    <td style="white-space: nowrap; text-align: right">1.61</td>
+    <td style="white-space: nowrap; text-align: right">179.47x</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">1.01</td>
-    <td style="white-space: nowrap; text-align: right">280.69x</td>
+    <td style="white-space: nowrap; text-align: right">1.07</td>
+    <td style="white-space: nowrap; text-align: right">271.64x</td>
   </tr>
 
 </table>
@@ -157,29 +157,29 @@ Run Time
 
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap; text-align: right">3031.71</td>
-    <td style="white-space: nowrap; text-align: right">0.33 ms</td>
-    <td style="white-space: nowrap; text-align: right">±6.36%</td>
+    <td style="white-space: nowrap; text-align: right">3131.69</td>
     <td style="white-space: nowrap; text-align: right">0.32 ms</td>
-    <td style="white-space: nowrap; text-align: right">0.40 ms</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">580.33</td>
-    <td style="white-space: nowrap; text-align: right">1.72 ms</td>
-    <td style="white-space: nowrap; text-align: right">±11.65%</td>
-    <td style="white-space: nowrap; text-align: right">1.73 ms</td>
-    <td style="white-space: nowrap; text-align: right">2.23 ms</td>
+    <td style="white-space: nowrap; text-align: right">±4.82%</td>
+    <td style="white-space: nowrap; text-align: right">0.31 ms</td>
+    <td style="white-space: nowrap; text-align: right">0.38 ms</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">17.89</td>
-    <td style="white-space: nowrap; text-align: right">55.90 ms</td>
-    <td style="white-space: nowrap; text-align: right">±3.98%</td>
-    <td style="white-space: nowrap; text-align: right">55.29 ms</td>
-    <td style="white-space: nowrap; text-align: right">59.49 ms</td>
+    <td style="white-space: nowrap; text-align: right">19.11</td>
+    <td style="white-space: nowrap; text-align: right">52.34 ms</td>
+    <td style="white-space: nowrap; text-align: right">±3.21%</td>
+    <td style="white-space: nowrap; text-align: right">51.98 ms</td>
+    <td style="white-space: nowrap; text-align: right">56.40 ms</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
+    <td style="white-space: nowrap; text-align: right">16.18</td>
+    <td style="white-space: nowrap; text-align: right">61.82 ms</td>
+    <td style="white-space: nowrap; text-align: right">±1.39%</td>
+    <td style="white-space: nowrap; text-align: right">61.90 ms</td>
+    <td style="white-space: nowrap; text-align: right">63.88 ms</td>
   </tr>
 
 </table>
@@ -194,20 +194,20 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap;text-align: right">3031.71</td>
+    <td style="white-space: nowrap;text-align: right">3131.69</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">580.33</td>
-    <td style="white-space: nowrap; text-align: right">5.22x</td>
+    <td style="white-space: nowrap">dominik_parallel_0</td>
+    <td style="white-space: nowrap; text-align: right">19.11</td>
+    <td style="white-space: nowrap; text-align: right">163.92x</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">17.89</td>
-    <td style="white-space: nowrap; text-align: right">169.49x</td>
+    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
+    <td style="white-space: nowrap; text-align: right">16.18</td>
+    <td style="white-space: nowrap; text-align: right">193.61x</td>
   </tr>
 
 </table>
@@ -233,29 +233,29 @@ Run Time
 
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap; text-align: right">301.43 K</td>
-    <td style="white-space: nowrap; text-align: right">3.32 μs</td>
-    <td style="white-space: nowrap; text-align: right">±83.40%</td>
-    <td style="white-space: nowrap; text-align: right">3.17 μs</td>
-    <td style="white-space: nowrap; text-align: right">5.35 μs</td>
-  </tr>
-
-  <tr>
-    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">34.24 K</td>
-    <td style="white-space: nowrap; text-align: right">29.20 μs</td>
-    <td style="white-space: nowrap; text-align: right">±17.80%</td>
-    <td style="white-space: nowrap; text-align: right">27.81 μs</td>
-    <td style="white-space: nowrap; text-align: right">47.35 μs</td>
+    <td style="white-space: nowrap; text-align: right">306.04 K</td>
+    <td style="white-space: nowrap; text-align: right">3.27 μs</td>
+    <td style="white-space: nowrap; text-align: right">±83.62%</td>
+    <td style="white-space: nowrap; text-align: right">3.11 μs</td>
+    <td style="white-space: nowrap; text-align: right">6.45 μs</td>
   </tr>
 
   <tr>
     <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">2.37 K</td>
-    <td style="white-space: nowrap; text-align: right">422.80 μs</td>
-    <td style="white-space: nowrap; text-align: right">±8.34%</td>
-    <td style="white-space: nowrap; text-align: right">420.58 μs</td>
-    <td style="white-space: nowrap; text-align: right">520.30 μs</td>
+    <td style="white-space: nowrap; text-align: right">2.35 K</td>
+    <td style="white-space: nowrap; text-align: right">425.34 μs</td>
+    <td style="white-space: nowrap; text-align: right">±7.95%</td>
+    <td style="white-space: nowrap; text-align: right">424.26 μs</td>
+    <td style="white-space: nowrap; text-align: right">509.94 μs</td>
+  </tr>
+
+  <tr>
+    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
+    <td style="white-space: nowrap; text-align: right">1.62 K</td>
+    <td style="white-space: nowrap; text-align: right">615.67 μs</td>
+    <td style="white-space: nowrap; text-align: right">±7.77%</td>
+    <td style="white-space: nowrap; text-align: right">609.40 μs</td>
+    <td style="white-space: nowrap; text-align: right">776.43 μs</td>
   </tr>
 
 </table>
@@ -270,20 +270,20 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">dominik_serial_0</td>
-    <td style="white-space: nowrap;text-align: right">301.43 K</td>
+    <td style="white-space: nowrap;text-align: right">306.04 K</td>
     <td>&nbsp;</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
-    <td style="white-space: nowrap; text-align: right">34.24 K</td>
-    <td style="white-space: nowrap; text-align: right">8.8x</td>
+    <td style="white-space: nowrap">dominik_parallel_0</td>
+    <td style="white-space: nowrap; text-align: right">2.35 K</td>
+    <td style="white-space: nowrap; text-align: right">130.17x</td>
   </tr>
 
   <tr>
-    <td style="white-space: nowrap">dominik_parallel_0</td>
-    <td style="white-space: nowrap; text-align: right">2.37 K</td>
-    <td style="white-space: nowrap; text-align: right">127.44x</td>
+    <td style="white-space: nowrap">dimitarvp_parallel_chunk</td>
+    <td style="white-space: nowrap; text-align: right">1.62 K</td>
+    <td style="white-space: nowrap; text-align: right">188.42x</td>
   </tr>
 
 </table>
